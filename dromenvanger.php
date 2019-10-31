@@ -8,7 +8,7 @@ $aanvri = readline();
 if(is_numeric($aanvri)){
     
     for ($a = 0; $a < $aanvri; $a++){
-        echo"Wat is je naam???" . PHP_EOL;
+        echo"Wat is jouw naam???" . PHP_EOL;
         $naam = readline();
         // naam toevoegen
         
@@ -17,7 +17,7 @@ if(is_numeric($aanvri)){
         //getal toevoegen voor aantal dromen
         
         for($q = 0; $q < $aantaldromen; $q++){
-            echo "Wat is je droom??" . PHP_EOL;
+            echo "Wat is jouw droom??" . PHP_EOL;
             $vrienden[$naam][$q] = readline();
             //dromen toevoegen
         }
